@@ -1,0 +1,755 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"base_",
+				"base_url"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/config/database.php",
+			"settings":
+			{
+				"buffer_size": 4539,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/Ajax.php",
+			"settings":
+			{
+				"buffer_size": 17691,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/Development.php",
+			"settings":
+			{
+				"buffer_size": 6025,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/libraries/Setup.php",
+			"settings":
+			{
+				"buffer_size": 50063,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/Data.php",
+			"settings":
+			{
+				"buffer_size": 61136,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/Penjualan.php",
+			"settings":
+			{
+				"buffer_size": 65755,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/libraries/Stock_lib.php",
+			"settings":
+			{
+				"buffer_size": 3901,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/libraries/Utility.php",
+			"settings":
+			{
+				"buffer_size": 3264,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/libraries/Penjualan_lib.php",
+			"settings":
+			{
+				"buffer_size": 18886,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/Pembelian.php",
+			"settings":
+			{
+				"buffer_size": 81463,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/Cache.php",
+			"settings":
+			{
+				"buffer_size": 671,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/templates/default/penjualan/view_penjualan.php",
+			"settings":
+			{
+				"buffer_size": 24277,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/templates/default/form/view_penjualan_form.php",
+			"settings":
+			{
+				"buffer_size": 49076,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Xampp/htdocs/astonv2",
+		"/D/Xampp/htdocs/astonv2/application",
+		"/D/Xampp/htdocs/astonv2/application/config",
+		"/D/Xampp/htdocs/astonv2/application/controllers",
+		"/D/Xampp/htdocs/astonv2/application/libraries",
+		"/D/Xampp/htdocs/astonv2/application/views/templates",
+		"/D/Xampp/htdocs/astonv2/application/views/templates/default",
+		"/D/Xampp/htdocs/astonv2/application/views/templates/default/cetak",
+		"/D/Xampp/htdocs/astonv2/application/views/templates/default/form",
+		"/D/Xampp/htdocs/astonv2/application/views/templates/default/keuangan",
+		"/D/Xampp/htdocs/astonv2/application/views/templates/default/pembelian",
+		"/D/Xampp/htdocs/astonv2/application/views/templates/default/penjualan",
+		"/D/Xampp/htdocs/astonv2/application/views/templates/default/setting"
+	],
+	"file_history":
+	[
+		"/D/Xampp/htdocs/astonv2/application/controllers/Wa.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Xampp/htdocs/trial/oxygen/application/config/database.php",
+		"/D/Xampp/htdocs/ci_angularjs/application/controllers/Home.php",
+		"/D/Xampp/htdocs/ci_angularjs/application/views/home/login.php",
+		"/D/Xampp/htdocs/ci_angularjs/application/controllers/hello.php",
+		"/D/Xampp/htdocs/ci_angularjs/application/models/angular_model.php",
+		"/D/Xampp/htdocs/ci_angularjs/application/config/routes.php",
+		"/D/Xampp/htdocs/ci_angularjs/application/config/database.php",
+		"/D/Xampp/htdocs/app-travel/app.js",
+		"/D/Xampp/htdocs/serverlokomedia/application/controllers/harga.php",
+		"/D/Xampp/htdocs/serverlokomedia/application/controllers/jamkeberangkatan.php",
+		"/D/Xampp/htdocs/app-travel/main.js",
+		"/D/Xampp/htdocs/app-travel/index.html",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/static/js/scripts.js",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/views/layout.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/views/list.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/controllers/Nyoba.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/controllers/api/Projects.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/models/Project_model.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/controllers/Projects.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/libraries/Format.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/config/ldap.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/config/rest.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/libraries/REST_Controller.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/views/detail.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/config/routes.php",
+		"/D/Xampp/htdocs/trial/CodeIgniter-AngularJS-App-3.x/application/config/database.php",
+		"/D/Xampp/htdocs/erp-catering/application/controllers/Dashboard.php",
+		"/D/Xampp/htdocs/angular-metroUI-master/app/scripts/app.js",
+		"/D/Xampp/htdocs/angular-metroUI-master/app/index.html",
+		"/D/Xampp/htdocs/angular-metroUI-master/bower.json",
+		"/D/Xampp/htdocs/angular-metroUI-master/app/views/main.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cache",
+			"serverroot",
+			"angular.module('project', ['projectApi']).\n  config(function($routeProvider) {\n    $routeProvider.\n      when('/', {controller:ListCtrl, templateUrl:BASE_URL+'projects/template_list'}).\n      when('/edit/:id', {controller:EditCtrl, templateUrl:BASE_URL+'projects/template_detail'}).\n      when('/new', {controller:CreateCtrl, templateUrl:BASE_URL+'projects/new_data'}).\n      otherwise({redirectTo:'/'});\n  });\n\nfunction ListCtrl($scope, $location, Project) {\n\n  $scope.projects = Project.query();\n\n  $scope.destroy = function(Project) {\n    Project.destroy(function() {\n      $scope.projects.splice($scope.projects.indexOf(Project), 1);\n    });\n  };\n}\n\nfunction CreateCtrl($scope, $location, Project) {\n  $scope.save = function() {\n    Project.save($scope.project, function(project) {\n      $location.path('/edit/' + project.id);\n    });\n  };\n}\n\nfunction EditCtrl($scope, $location, $routeParams, Project) {\n  var self = this;\n\n  Project.get({id: $routeParams.id}, function(project) {\n    self.original = project;\n    $scope.project = new Project(self.original);\n  });\n\n  $scope.isClean = function() {\n    return angular.equals(self.original, $scope.project);\n  };\n\n  $scope.destroy = function() {\n    self.original.destroy(function() {\n      $location.path('/');\n    });\n  };\n\n  $scope.save = function() {\n    $scope.project.update(function() {\n      $location.path('/');\n    });\n  };\n}\n\n\nangular.module('projectApi', ['ngResource']).\n  factory('Project', function($resource) {\n    var Project = $resource(BASE_URL+'api/projects/:method/:id', {}, {\n      query: {method:'GET', params: {method:'index'}, isArray:true },\n      save: {method:'POST', params: {method:'save'} },\n      get: {method:'GET', params: {method:'edit'} },\n      remove: {method:'DELETE', params: {method:'remove'} }\n    });\n\n    Project.prototype.update = function(cb) {\n      return Project.save({id: this.id},\n          angular.extend({}, this, {id:undefined}), cb);\n    };\n\n    Project.prototype.destroy = function(cb) {\n      return Project.remove({id: this.id}, cb);\n    };\n\n    return Project;\n  });",
+			"app/angular-1.2.7/",
+			"/app",
+			"bower_components/angular-animate/",
+			"bower_components/angular/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"angular-1.2.7/",
+			"",
+			"angular-1.2.7/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4152,
+								4152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1092.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/controllers/Ajax.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17046,
+								17051
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 12596.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/controllers/Development.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1928,
+								1928
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/libraries/Setup.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/controllers/Data.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48014,
+								48019
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30426.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/controllers/Penjualan.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16123,
+								16123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/libraries/Stock_lib.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2376.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/libraries/Utility.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								746,
+								746
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "application/libraries/Penjualan_lib.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4650,
+								4328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2304.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "application/controllers/Pembelian.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "application/controllers/Cache.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "application/views/templates/default/penjualan/view_penjualan.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "application/views/templates/default/form/view_penjualan_form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				0,
+				2,
+				1,
+				3
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.845572727381,
+			0.924812030075,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "aston-v2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 409.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,117 @@
+*Data FIXED dari awal*
+1. data user
+
+
+
+*Database Relasi*
+
+1.	Data-data > Rekening Laba Rugi 
+	-	labarugi_marketing
+	-	rekening -> merujuk ke table 'klasifikasi_akun'
+
+	(semua outlet sama, tidak perlu bikin ID outlet)
+
+2. Data-data > Data Pelanggan
+	- customer 
+	- identitas_head --> disatukan
+
+3. Data-data > Supplier / pemasok
+	- supplier
+
+4. Data-data > data karyawan
+	-	employee
+
+5. data-data > data rekening 
+	- rekening
+	- klasifikasi_akun
+	- sub_klasifikasi_akun
+
+6. data-data > user
+	-	diambil dari database all - user
+
+7.	data-data > produk rakitan
+ 	- rakitan_detail
+ 	- rakitan
+ 	- rakitan_det
+ 	- produk
+ 	- kelompok_produk
+ 	- merk_produk
+
+ 	data awal produk rakitan dimasukkan dari menu "add produk" dengan opsi cekbox "produk rakitan"
+
+ 	masuk ke data produk
+ 	- type = non jasa
+ 	- produk rakitan = 1
+
+ 	masuk menu produk rakitan > add data baru dari data produk
+ 	- masuk ke table rakitan_detail
+
+ 	setelah klik tombol "rakit" data masuk ke:
+ 	- table "rakitan"
+ 	- table "stok_produk"
+ 	- update table "produk" field "hpp" dari total harga rakitan
+ 	- masuk table "jurnal_umum" dan "jurmal_umum_detail"
+
+
+--------------------------------------------
+
+II. Menu Pembelian
+
+Alur PO utk buat produk masuk ke stock
+1. outlet bikin PO ke pusat dari menu "Pembelian > PO Outlet"
+	- masuk ke table trx_head_penawaran + trx_detail_penawaran dengan status = 0
+
+2. pusat bikin PO ke supplier dari menu "Pembelian > PO supplier"
+	- update table trx_head_penawaran + trx_detail_penawaran dengan status = 1
+	- masuk data ke table trx_head_po + trx_detail_po status = 1 (belum beli)
+
+3. pusat bikin pembelian dari menu "Pembelian > pembelian purchasing"
+ 	- update table trx_head_po + trx_detail_po status = 2 
+
+4. outlet bikin penerimaan dari menu "pembelian > penerimaan produk/pembelian" 
+	- update table trx_head_po + trx_detail_po status = 3
+	- masuk ke table stock produk
+	- masuk ke table jurnal_umum + jurnal_umum_detail
+
+
+	- no_order pada table stock_produk harusnya no_bukti_penerimaan
+
+	- masuk ke table trx_head_penerimaan + trx_detail_penerimaan
+
+	- masuk ke tabel hutang_usaha
+
+
+
+II . 2 Hutang Usaha
+
+1. pembayaran hutang -> dari menu pembelian
+
+	- data masuk ke trx_head_pembayaran_hutang  + trx_detail_pembayaran_hutang
+	- masuk ke jurnal_umum + jurnal_umum_detail
+
+III. Penjualan
+
+1. Menu penjualan > Penjualan
+	
+	- data masuk ke trx_head_invoice + trx_detail_invoice + jurnal_umum + jurnal_umum_detail
+
+
+-----
+
+catatan pejualan produk
+> action ajax
+	1. /penjualan/invoice/tambah_invoice?_=1476671983716
+	2. /penjualan/invoice/updatePenjualanTidakTerposting?no_order=[object%20Object]&so_no=&_=1476671983715
+	3. /penjualan/invoice/simpanInvoice
+
+
+
+
+
+
+
+
+proses dump produk rakitan dari table rakita dan rakitan_detail 
+belum diproses
+
+data yg keluar didropdown data penjualan diambil dari stok produk dan produk service
